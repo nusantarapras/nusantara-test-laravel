@@ -6,7 +6,9 @@ Requirement :
 Tahapan instalasi: 
     - composer install
     - npm install
-    - php artisan ke:generate
+    - create daatabase
+    - copy .env.example menjadi .env dan sesuaikan username & password mysql dan nama database
+    - php artisan key:generate
     - php artisan migrate
     - php artisan db:seed
     - npm run build
